@@ -39,7 +39,7 @@ class App < Sinatra::Base
       when "multiply"
         "#{@number1.to_i * @number2.to_i}"
       when "divide"
-        "#{@number2 / @number1}"
+        "#{@number1 / @number2}"
       end
   end
 
